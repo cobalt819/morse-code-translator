@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans:wght@400;800&display=swap');
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #2d3436; 
+    font-family: "Courier Prime"
+}
+
+main {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    justify-content: center;
+
+}
+
+section {
+    color: #dfe6e9;
+    width: 50%;
+    margin: 0.4rem;
+    padding: 1rem;
+    height: 50%;
+}
+
+.morse {
+    background-color: beige;
+    color: black;
+    font-family: "Courier Prime";
+    border: 3px dashed #0f68ad;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #efbf66;
+}
+
+#title {
+    padding: 1rem;
+    font-family: "Courier Prime";
+    color: rgb(63, 53, 53);
+    padding-top: 2rem;
+}
+
+#mlh-banner {
+    background-color: #dfe6e9;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #d63031;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+#blue-text {
+    color: #0f68ad;
+}
+
+#yellow-text {
+    color: rgb(205, 205, 13); 
+}
+
+footer {
+    background-color: black;
+    color: #dfe6e9;
+    font-family: "Open Sans";
+    text-align: right;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+#reference div {
+    display: inline-block;
+    padding-bottom: 0px;
+}
+
+#first-row {
+    margin-right: 5rem;
+}
